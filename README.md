@@ -21,3 +21,7 @@ If we use Python to run directly, below is a list of dependencies:
 - fastapi (>=0.135.1,<0.136.0)
 - uvicorn (>=0.41.0,<0.42.0)
 
+## Run
+Please run build_vector_db.py directly to build vector database before run API<br>
+Python: `py run build_vector_db.py`<br>
+Poetry: `poetry run build_vector_db.py`
