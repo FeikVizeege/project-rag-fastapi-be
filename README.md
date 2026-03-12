@@ -28,3 +28,6 @@ Python: `py run build_vector_db.py`
 
 Poetry: `poetry run build_vector_db.py`
 
+Then run `uvicorn main:app --reload`
+
+
