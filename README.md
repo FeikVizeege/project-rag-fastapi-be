@@ -3,6 +3,7 @@
 
 ## Setup
 **Python**: 3.10
+
 **Poetry**: Optional
 
 Poetry: [Basic usage](https://python-poetry.org/docs/basic-usage/)
@@ -19,3 +20,4 @@ If we use Python to run directly, below is a list of dependencies:
 - langchain-groq (>=1.1.2,<2.0.0)
 - fastapi (>=0.135.1,<0.136.0)
 - uvicorn (>=0.41.0,<0.42.0)
+
