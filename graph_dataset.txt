@@ -1,0 +1,756 @@
+Type: Definition
+Concept: Graph
+
+Query Examples:
+- What is a graph in graph theory?
+- Define graph.
+- What does graph mean in graph theory?
+
+Content:
+A graph is a mathematical structure used to represent relationships between objects. 
+A graph consists of a set of vertices (nodes) and a set of edges connecting pairs of vertices. 
+It is commonly represented as G = (V, E), where V is the set of vertices and E is the set of edges.
+
+---
+
+Type: Definition
+Concept: Vertex
+
+Query Examples:
+- What is a vertex in graph theory?
+- Define vertex.
+- What is a node in a graph?
+
+Content:
+A vertex is a fundamental unit of a graph representing an entity or object. 
+Vertices are connected by edges to represent relationships between them. 
+The terms vertex and node are often used interchangeably.
+
+---
+
+Type: Definition
+Concept: Edge
+
+Query Examples:
+- What is an edge in graph theory?
+- Define edge.
+- What does edge mean in a graph?
+
+Content:
+An edge represents a connection between two vertices in a graph. 
+In undirected graphs the edge has no direction, while in directed graphs the edge points from one vertex to another.
+
+---
+
+Type: Definition
+Concept: Directed Graph
+
+Query Examples:
+- What is a directed graph?
+- Define directed graph.
+- What does directed graph mean?
+
+Content:
+A directed graph is a graph in which edges have directions. 
+Each edge is represented as an ordered pair of vertices indicating the direction from one vertex to another.
+
+---
+
+Type: Definition
+Concept: Undirected Graph
+
+Query Examples:
+- What is an undirected graph?
+- Define undirected graph.
+- What does undirected graph mean?
+
+Content:
+An undirected graph is a graph in which edges do not have directions. 
+The connection between two vertices is bidirectional and represented as an unordered pair.
+
+---
+
+Type: Definition
+Concept: Weighted Graph
+
+Query Examples:
+- What is a weighted graph?
+- Define weighted graph.
+- What does weighted graph mean?
+
+Content:
+A weighted graph is a graph where each edge has an associated numerical value called a weight. 
+Weights often represent distances, costs, or capacities between vertices.
+
+---
+
+Type: Definition
+Concept: Bipartite Graph
+
+Query Examples:
+- What is a bipartite graph?
+- Define bipartite graph.
+- What does bipartite graph mean?
+
+Content:
+A bipartite graph is a graph whose vertices can be divided into two disjoint sets such that every edge connects vertices from different sets.
+
+---
+
+Type: Definition
+Concept: Complete Graph
+
+Query Examples:
+- What is a complete graph?
+- Define complete graph.
+- What does complete graph mean?
+
+Content:
+A complete graph is a graph in which every pair of distinct vertices is connected by an edge.
+
+---
+
+Type: Definition
+Concept: Tree
+
+Query Examples:
+- What is a tree in graph theory?
+- Define tree in graph theory.
+- What does tree in graph theory mean?
+
+Content:
+A tree is a connected graph that contains no cycles.
+
+---
+
+Type: Definition
+Concept: Spanning Tree
+
+Query Examples:
+- What is a spanning tree?
+- Define spanning tree.
+- What does spanning tree mean?
+
+Content:
+A spanning tree is a subgraph that connects all vertices of the original graph without forming cycles.
+
+---
+
+Type: Definition
+Concept: Minimum Spanning Tree
+
+Query Examples:
+- What is minimum spanning tree?
+- Define minimum spanning tree.
+- What does minimum spanning tree mean?
+
+Content:
+A minimum spanning tree is a spanning tree whose total edge weight is minimal among all possible spanning trees.
+
+---
+
+Type: Definition
+Concept: Adjacency Matrix
+
+Query Examples:
+- What is adjacency matrix?
+- Define adjacency matrix.
+- What does adjacency matrix mean?
+
+Content:
+An adjacency matrix is a matrix representation of a graph where rows and columns represent vertices and entries indicate whether edges exist.
+
+---
+
+Type: Definition
+Concept: Adjacency List
+
+Query Examples:
+- What is adjacency list?
+- Define adjacency list.
+- What does adjacency list mean?
+
+Content:
+An adjacency list represents a graph by storing a list of neighbors for each vertex.
+
+---
+
+Type: Definition
+Concept: Hamiltonian Cycle
+
+Query Examples:
+- What is Hamiltonian cycle?
+- Define Hamiltonian cycle.
+- What does Hamiltonian cycle mean?
+
+Content:
+A Hamiltonian cycle is a cycle that visits each vertex exactly once and returns to the starting vertex.
+
+---
+
+Type: Definition
+Concept: Eulerian Path
+
+Query Examples:
+- What is Eulerian path?
+- Define Eulerian path.
+- What does Eulerian path mean?
+
+Content:
+An Eulerian path is a path that visits every edge of a graph exactly once.
+
+---
+
+Type: Definition
+Concept: Eulerian Circuit
+
+Query Examples:
+- What is Eulerian circuit?
+- Define Eulerian circuit.
+- What does Eulerian circuit mean?
+
+Content:
+An Eulerian circuit is a cycle that uses every edge of a graph exactly once and returns to the starting vertex.
+
+---
+
+Type: Definition
+Concept: Graph Density
+
+Query Examples:
+- What is graph density?
+- Define graph density.
+- What does graph density mean?
+
+Content:
+Graph density measures how many edges are in a graph compared to the maximum possible number of edges.
+
+---
+
+Type: Definition
+Concept: Subgraph
+
+Query Examples:
+- What is a subgraph?
+- Define subgraph.
+- What does subgraph mean?
+
+Content:
+A subgraph is a graph formed from a subset of vertices and edges of another graph.
+
+---
+
+Type: Definition
+Concept: Planar Graph
+
+Query Examples:
+- What is planar graph?
+- Define planar graph.
+- What does planar graph mean?
+
+Content:
+A planar graph can be drawn on a plane without edges crossing each other.
+
+---
+
+Type: Definition
+Concept: Clique
+
+Query Examples:
+- What is a clique in graph theory?
+- Define clique in graph theory.
+- What does clique in graph theory mean?
+
+Content:
+A clique is a subset of vertices in which every two vertices are connected by an edge.
+
+---
+
+Type: Definition
+Concept: Cut Vertex
+
+Query Examples:
+- What is a cut vertex in graph theory?
+- Define cut vertex in graph theory.
+- What does cut vertex in graph theory mean?
+
+Content:
+A cut vertex is a vertex whose removal increases the number of connected components of a graph.
+
+---
+
+Type: Definition
+Concept: Connected Graph
+
+Query Examples:
+- What is a connected graph?
+- Define connected graph.
+- What does connected graph mean?
+
+Content:
+A graph is called connected if there exists a path between every pair of vertices in the graph.
+
+---
+
+Type: Definition
+Concept: Strongly Connected Graph
+
+Query Examples:
+- What is strongly connected graph?
+- Define strongly connected graph.
+- What does strongly connected graph mean?
+
+Content:
+A directed graph is strongly connected if there is a path from every vertex to every other vertex.
+
+---
+
+Type: Definition
+Concept: Weakly Connected Graph
+
+Query Examples:
+- What is weakly connected graph?
+- Define weakly connected graph.
+- What does weakly connected graph mean?
+
+Content:
+A directed graph is weakly connected if replacing all directed edges with undirected edges results in a connected graph.
+
+---
+
+Type: Definition
+Concept: Degree of Vertex
+
+Query Examples:
+- What is the degree of a vertex?
+- Define vertex degree.
+- What does vertex degree mean?
+
+Content:
+The degree of a vertex in an undirected graph is the number of edges incident to that vertex. 
+In directed graphs the degree is divided into in-degree and out-degree.
+
+---
+
+Type: Definition
+Concept: Path
+
+Query Examples:
+- What is a path in graph theory?
+- Define path in graph.
+- What does path in graph theory mean?
+
+Content:
+A path in a graph is a sequence of vertices where each consecutive pair of vertices is connected by an edge. 
+Paths are used to represent traversal from one vertex to another.
+
+---
+
+Type: Definition
+Concept: Cycle
+
+Query Examples:
+- What is a cycle in graph theory?
+- Define cycle in graph theory.
+- What does cycle in graph theory mean?
+
+Content:
+A cycle is a path that starts and ends at the same vertex with no repeated edges or vertices except the starting vertex.
+
+---
+
+Type: Definition
+Concept: Breadth First Search
+
+Query Examples:
+- What is BFS?
+- Explain Breadth First Search.
+- What does Breadth First Search mean?
+
+Content:
+Breadth First Search is a graph traversal algorithm that explores vertices level by level. 
+It starts from a source vertex and visits all neighboring vertices before moving to the next level.
+
+---
+
+Type: Definition
+Concept: Depth First Search
+
+Query Examples:
+- What is DFS?
+- Explain Depth First Search.
+- What does Depth First Search mean?
+
+Content:
+Depth First Search is a graph traversal algorithm that explores as far as possible along each branch before backtracking.
+
+---
+
+Type: Definition
+Concept: Dijkstra Algorithm
+
+Query Examples:
+- What is Dijkstra algorithm?
+- Explain Dijkstra shortest path algorithm.
+- What does Dijkstra shortest path algorithm mean?
+
+Content:
+Dijkstra's algorithm finds the shortest path from a source vertex to all other vertices in a graph with non-negative edge weights.
+
+---
+
+Type: Definition
+Concept: Bellman Ford Algorithm
+
+Query Examples:
+- What is Bellman-Ford algorithm?
+- Explain Bellman-Ford.
+- What does Bellman-Ford mean?
+
+Content:
+Bellman-Ford is a shortest path algorithm that works with graphs containing negative edge weights. 
+It can also detect negative weight cycles.
+
+---
+
+Type: Definition
+Concept: Floyd Warshall Algorithm
+
+Query Examples:
+- What is Floyd-Warshall algorithm?
+- Explain Floyd-Warshall algorithm.
+- What does Floyd-Warshall mean?
+
+Content:
+Floyd-Warshall is an algorithm used to find the shortest paths between all pairs of vertices in a weighted graph.
+
+---
+
+Type: Definition
+Concept: Prim Algorithm
+
+Query Examples:
+- What is Prim algorithm?
+- Explain Prim algorithm.
+- What does Prim algorithm mean?
+
+Content:
+Prim's algorithm finds a minimum spanning tree by growing the tree one edge at a time starting from an arbitrary vertex.
+
+---
+
+Type: Definition
+Concept: Kruskal Algorithm
+
+Query Examples:
+- What is Kruskal algorithm?
+- Explain Kruskal algorithm.
+- What does Kruskal algorithm mean?
+
+Content:
+Kruskal's algorithm finds a minimum spanning tree by repeatedly adding the smallest edge that does not form a cycle.
+
+---
+
+Type: Definition
+Concept: Graph Coloring
+
+Query Examples:
+- What is graph coloring?
+- Explain graph coloring.
+- What does graph coloring mean?
+
+Content:
+Graph coloring is the assignment of colors to vertices such that no two adjacent vertices share the same color.
+
+---
+
+Type: Procedure
+Concept: BFS Steps
+
+Query Examples:
+- What are the steps of BFS?
+- Explain the procedure of BFS.
+- How does BFS work step by step?
+
+Content:
+Steps of BFS:
+1. Start from the source vertex.
+2. Mark it as visited.
+3. Add it to a queue.
+4. Remove a vertex from the queue.
+5. Visit all its unvisited neighbors.
+6. Repeat until the queue is empty.
+
+---
+
+Type: Procedure
+Concept: DFS Steps
+
+Query Examples:
+- What are the steps of DFS?
+- Explain the procedure of DFS.
+- How does DFS work step by step?
+
+Content:
+Steps of DFS:
+1. Start from a source vertex.
+2. Visit the vertex.
+3. Recursively visit an unvisited adjacent vertex.
+4. Backtrack when no unvisited vertices remain.
+
+---
+
+Type: Procedure
+Concept: Dijkstra Algorithm Steps
+
+Query Examples:
+- What are the steps of Dijkstra algorithm?
+- Explain the procedure of Dijkstra algorithm.
+- How does Dijkstra work step by step?
+
+Content:
+Steps of Dijkstra:
+1. Set distance of source to zero.
+2. Set all other distances to infinity.
+3. Select the unvisited vertex with the smallest distance.
+4. Update distances of neighbors.
+5. Mark the vertex as visited.
+6. Repeat until all vertices are visited.
+
+---
+
+Type: Procedure
+Concept: Bellman-Ford Algorithm Steps
+
+Query Examples:
+- What are the steps of Bellman-Ford algorithm?
+- Explain the procedure of Bellman-Ford algorithm.
+- How does Bellman-Ford work step by step?
+
+Content:
+Steps of the Bellman-Ford algorithm:
+
+1. Initialize the distance of the source vertex to 0 and all other vertices to infinity.
+2. Relax all edges repeatedly for |V| - 1 iterations.
+3. For each edge (u, v), update the distance if a shorter path is found.
+4. After relaxation, check all edges again to detect negative weight cycles.
+5. If a shorter path is still found, the graph contains a negative cycle.
+
+---
+
+Type: Procedure
+Concept: Prim Algorithm Steps
+
+Query Examples:
+- What are the steps of Prim's algorithm?
+- Explain the procedure of Prim algorithm.
+- How does Prim algorithm build a minimum spanning tree?
+
+Content:
+Steps of Prim's algorithm:
+
+1. Start with any vertex as the initial vertex.
+2. Add the vertex to the growing minimum spanning tree.
+3. Select the smallest weight edge that connects a vertex in the tree to a vertex outside the tree.
+4. Add the new vertex and edge to the tree.
+5. Repeat until all vertices are included in the tree.
+
+---
+
+Type: Procedure
+Concept: Kruskal Algorithm Steps
+
+Query Examples:
+- What are the steps of Kruskal algorithm?
+- Explain Kruskal algorithm step by step.
+- How does Kruskal find a minimum spanning tree?
+
+Content:
+Steps of Kruskal's algorithm:
+
+1. Sort all edges in the graph in increasing order of weight.
+2. Start with an empty forest where each vertex is a separate tree.
+3. Select the smallest edge.
+4. Add the edge if it does not create a cycle.
+5. Merge the sets of the two vertices.
+6. Repeat until the minimum spanning tree is formed.
+
+---
+
+Type: List
+Concept: Graph Representation Methods
+
+Query Examples:
+- What are common graph representation methods?
+- How can graphs be represented in computer memory?
+- What are ways to represent a graph in data structures?
+
+Content:
+Graphs can be represented using several common data structures:
+
+- Adjacency Matrix
+- Adjacency List
+- Edge List
+
+The adjacency matrix uses a 2D matrix to indicate connections between vertices. 
+The adjacency list stores a list of neighbors for each vertex. 
+The edge list simply stores all edges as pairs of vertices.
+
+---
+
+Type: List
+Concept: Types of Graph Traversal
+
+Query Examples:
+- What are graph traversal methods?
+- What algorithms are used to traverse graphs?
+- List graph traversal techniques.
+
+Content:
+The two fundamental graph traversal algorithms are:
+
+- Breadth First Search (BFS)
+- Depth First Search (DFS)
+
+BFS explores vertices level by level starting from a source vertex, 
+while DFS explores as deep as possible along each branch before backtracking.
+
+---
+
+Type: List
+Concept: Common Graph Problems
+
+Query Examples:
+- What are common problems in graph theory?
+- List common graph problems.
+- What problems can be solved using graph algorithms?
+
+Content:
+Some common problems studied in graph theory include:
+
+- Shortest Path Problem
+- Minimum Spanning Tree Problem
+- Graph Coloring Problem
+- Maximum Flow Problem
+- Connectivity Problem
+
+These problems are fundamental in many applications such as networks, routing, and scheduling.
+
+---
+
+Type: List
+Concept: Shortest Path Algorithms
+
+Query Examples:
+- What algorithms find shortest paths?
+- List of algorithms that find shortest paths?
+
+Content:
+Common shortest path algorithms include:
+- Dijkstra
+- Bellman-Ford
+- Floyd-Warshall
+
+---
+
+Type: List
+Concept: Minimum Spanning Tree Algorithms
+
+Query Examples:
+- What algorithms find minimum spanning tree?
+- List of algorithms that minimum spanning tree?
+
+Content:
+Minimum spanning tree algorithms include:
+- Prim Algorithm
+- Kruskal Algorithm
+
+---
+
+Type: List
+Concept: Types of Graphs
+
+Query Examples:
+- What are types of graphs?
+
+Content:
+Common types of graphs include:
+- Directed graph
+- Undirected graph
+- Weighted graph
+- Bipartite graph
+- Complete graph
+
+---
+
+Type: List
+Concept: Graph Applications
+
+Query Examples:
+- What are applications of graph theory?
+
+Content:
+Graph theory is used in many fields including:
+- Computer networks
+- Social network analysis
+- Transportation systems
+- Routing algorithms
+- Scheduling problems
+
+---
+
+Type: Comparison
+Concept: Dijkstra vs Bellman-Ford
+
+Query Examples:
+- What is the difference between Dijkstra and Bellman-Ford?
+- Compare Dijkstra and Bellman-Ford.
+
+Content:
+Dijkstra and Bellman-Ford are shortest path algorithms.
+
+Differences:
+- Dijkstra cannot handle negative edge weights.
+- Bellman-Ford can handle negative weights.
+- Dijkstra is faster.
+- Bellman-Ford can detect negative cycles.
+
+---
+
+Type: Comparison
+Concept: BFS vs DFS
+
+Query Examples:
+- What is the difference between BFS and DFS?
+- Compare BFS and DFS.
+
+Content:
+BFS and DFS are traversal algorithms.
+
+Differences:
+- BFS uses a queue.
+- DFS uses recursion or a stack.
+- BFS explores level by level.
+- DFS explores depth first.
+
+---
+
+Type: Comparison
+Concept: Prim vs Kruskal
+
+Query Examples:
+- What is the difference between Prim and Kruskal?
+- Compare Prim and Kruskal algorithms.
+
+Content:
+Both algorithms find minimum spanning trees.
+
+Differences:
+- Prim grows a single tree.
+- Kruskal builds a forest of trees.
+- Prim starts from a vertex.
+- Kruskal starts from edges.
+
+---
+
